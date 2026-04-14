@@ -1,5 +1,5 @@
 {% set name = "torch-frft" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/torch_frft-{{ version }}.tar.gz
-  sha256: 40d1350ed29b36e73abb3efc378e59024d128e5ce1995f3391c13cc1f9f3b85e
+  sha256: b11b4323992f9ee4d14c45d3d2e32aeecf7b60339cde0d5e28f69481311aa1f6
 
 build:
   noarch: python
